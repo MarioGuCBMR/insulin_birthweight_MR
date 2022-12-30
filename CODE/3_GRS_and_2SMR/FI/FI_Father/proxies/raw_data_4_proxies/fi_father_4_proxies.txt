@@ -1,0 +1,2 @@
+rsID Effect_Allele Other_Allele P
+rs6822892 A G 2.35e-05
