@@ -1,0 +1,128 @@
+declare -x ARC="linux-x64"
+declare -x BOOT_IMAGE="/vmlinuz-3.4.47-2.38-desktop"
+declare -x COLORTERM="1"
+declare -x CONFIG_SITE="/usr/share/site/x86_64-unknown-linux-gnu"
+declare -x CPU="x86_64"
+declare -x CSHEDIT="emacs"
+declare -x CVS_RSH="ssh"
+declare -x ENVIRONMENT="BATCH"
+declare -x FROM_HEADER=""
+declare -x GPG_TTY="not a tty"
+declare -x G_BROKEN_FILENAMES="1"
+declare -x G_FILENAME_ENCODING="@locale,UTF-8,ISO-8859-15,CP1252"
+declare -x HISTSIZE="1000"
+declare -x HOME="/home/zlc436"
+declare -x HOST="porus02"
+declare -x HOSTNAME="porus02.sund.root.ku.dk"
+declare -x HOSTTYPE="x86_64"
+declare -x INPUTRC="/etc/inputrc"
+declare -x JAVA_BINDIR="/usr/lib64/jvm/java/bin"
+declare -x JAVA_HOME="/usr/lib64/jvm/java"
+declare -x JAVA_ROOT="/usr/lib64/jvm/java"
+declare -x JDK_HOME="/usr/lib64/jvm/java"
+declare -x JOB_ID="7238785"
+declare -x JOB_NAME="fiadjbmi_FBWadj_GC"
+declare -x JOB_SCRIPT="/opt/gridengine/default/spool/porus02/job_scripts/7238785"
+declare -x JRE_HOME="/usr/lib64/jvm/java/jre"
+declare -x LANG="en_US.UTF-8"
+declare -x LD_LIBRARY_PATH="/usr/lib64/mpi/gcc/openmpi/lib64"
+declare -x LESS="-M -I -R"
+declare -x LESSCLOSE="lessclose.sh %s %s"
+declare -x LESSKEY="/etc/lesskey.bin"
+declare -x LESSOPEN="lessopen.sh %s"
+declare -x LESS_ADVANCED_PREPROCESSOR="no"
+declare -x LOGNAME="zlc436"
+declare -x MACHTYPE="x86_64-suse-linux"
+declare -x MAIL="/var/spool/mail/zlc436"
+declare -x MANPATH="/usr/lib64/mpi/gcc/openmpi/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"
+declare -x MINICOM="-c on"
+declare -x MORE="-sl"
+declare -x NHOSTS="1"
+declare -x NNTPSERVER="news"
+declare -x NQUEUES="1"
+declare -x NSLOTS="3"
+declare -x OLDPWD
+declare -x OSTYPE="linux"
+declare -x PAGER="less"
+declare -x PATH="/usr/lib64/mpi/gcc/openmpi/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/X11R6/bin:/usr/games"
+declare -x PE="smp"
+declare -x PE_HOSTFILE="/opt/gridengine/default/spool/porus02/active_jobs/7238785.1/pe_hostfile"
+declare -rx PROFILEREAD="true"
+declare -x PWD="/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/IR/fiadjbmi/FBWadj"
+declare -x PYTHONSTARTUP="/etc/pythonstart"
+declare -x QT_SYSTEM_DIR="/usr/share/desktop-data"
+declare -x QUEUE="all.q"
+declare -x REQNAME="fiadjbmi_FBWadj_GC"
+declare -x REQUEST="fiadjbmi_FBWadj_GC"
+declare -x RESTARTED="0"
+declare -x ROOTFS_BLKDEV="/dev/root"
+declare -x ROOTFS_FSCK="0"
+declare -x ROOTFS_FSTYPE="ext4"
+declare -x SDK_HOME="/usr/lib64/jvm/java"
+declare -x SGE_ACCOUNT="sge"
+declare -x SGE_ARCH="linux-x64"
+declare -x SGE_BINARY_PATH="/opt/gridengine/bin/linux-x64"
+declare -x SGE_CELL="default"
+declare -x SGE_CWD_PATH="/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/IR/fiadjbmi/FBWadj"
+declare -x SGE_JOB_SPOOL_DIR="/opt/gridengine/default/spool/porus02/active_jobs/7238785.1"
+declare -x SGE_O_HOME="/home/zlc436"
+declare -x SGE_O_HOST="x86_64-conda_cos6-linux-gnu"
+declare -x SGE_O_LOGNAME="zlc436"
+declare -x SGE_O_MAIL="/var/mail/zlc436"
+declare -x SGE_O_PATH="/home/zlc436/.conda/envs/r_env/bin:/usr/local/anaconda3/condabin:/usr/lib64/mpi/gcc/openmpi/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/X11R6/bin:/usr/games:/home/zlc436/R/x86_64-pc-linux-gnu-library/3.5:/oldhome/fng514/bin:/oldhome/cxt155/bin:/oldhome/cxt155/samtools-bcftools-htslib-1.0_x64-linux"
+declare -x SGE_O_SHELL="/bin/bash"
+declare -x SGE_O_WORKDIR="/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/IR/fiadjbmi/FBWadj"
+declare -x SGE_ROOT="/opt/gridengine"
+declare -x SGE_STDERR_PATH="/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/IR/fiadjbmi/FBWadj/fiadjbmi_FBWadj_GC.e7238785"
+declare -x SGE_STDIN_PATH="/dev/null"
+declare -x SGE_STDOUT_PATH="/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/IR/fiadjbmi/FBWadj/fiadjbmi_FBWadj_GC.o7238785"
+declare -x SGE_TASK_FIRST="undefined"
+declare -x SGE_TASK_ID="undefined"
+declare -x SGE_TASK_LAST="undefined"
+declare -x SGE_TASK_STEPSIZE="undefined"
+declare -x SHELL="/bin/bash"
+declare -x SHLVL="2"
+declare -x TMP="/tmp/7238785.1.all.q"
+declare -x TMPDIR="/tmp/7238785.1.all.q"
+declare -x USER="zlc436"
+declare -x WINDOWMANAGER="/usr/bin/startxfce4"
+declare -x XCURSOR_THEME="DMZ"
+declare -x XDG_CONFIG_DIRS="/etc/xdg"
+declare -x XDG_DATA_DIRS="/usr/share"
+declare -x XKEYSYMDB="/usr/X11R6/lib/X11/XKeysymDB"
+declare -x XNLSPATH="/usr/share/X11/nls"
+declare -x splash="silent"
+Function arguments:
+gwas1.df=/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/curated_files_4_gc/fiadjbmi_4_HDL.txt
+gwas2.df=/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/curated_files_4_gc/FBWadj_4_HDL.txt
+LD.path=/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/0_installing_HDL_and_reference_data/ref_panel/UKB_imputed_hapmap2_SVD_eigen99_extraction
+output.file=/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/output/fiadjbmi_FBWadj.Rout 
+
+Loading GWAS1 ... 
+Loading GWAS2 ... 
+Analysis starts on Wed Feb 23 09:14:19 2022 
+0 SNPs were removed in GWAS 1 due to missing N or missing test statistic.  
+0 SNPs were removed in GWAS 2 due to missing N or missing test statistic.  
+769237 out of 769306 (99.99%) SNPs in reference panel are available in GWAS 1.  
+769026 out of 769306 (99.96%) SNPs in reference panel are available in GWAS 2.  
+Estimation is ongoing ... 2%Estimation is ongoing ... 3%Estimation is ongoing ... 5%Estimation is ongoing ... 6%Estimation is ongoing ... 8%Estimation is ongoing ... 10%Estimation is ongoing ... 11%Estimation is ongoing ... 13%Estimation is ongoing ... 15%Estimation is ongoing ... 16%Estimation is ongoing ... 18%Estimation is ongoing ... 19%Estimation is ongoing ... 21%Estimation is ongoing ... 23%Estimation is ongoing ... 24%Estimation is ongoing ... 26%Estimation is ongoing ... 27%Estimation is ongoing ... 29%Estimation is ongoing ... 31%Estimation is ongoing ... 32%Estimation is ongoing ... 34%Estimation is ongoing ... 35%Estimation is ongoing ... 37%Estimation is ongoing ... 39%Estimation is ongoing ... 40%Estimation is ongoing ... 42%Estimation is ongoing ... 44%Estimation is ongoing ... 45%Estimation is ongoing ... 47%Estimation is ongoing ... 48%Estimation is ongoing ... 50%Estimation is ongoing ... 52%Estimation is ongoing ... 53%Estimation is ongoing ... 55%Estimation is ongoing ... 56%Estimation is ongoing ... 58%Estimation is ongoing ... 60%Estimation is ongoing ... 61%Estimation is ongoing ... 63%Estimation is ongoing ... 65%Estimation is ongoing ... 66%Estimation is ongoing ... 68%Estimation is ongoing ... 69%Estimation is ongoing ... 71%Estimation is ongoing ... 73%Estimation is ongoing ... 74%Estimation is ongoing ... 76%Estimation is ongoing ... 77%Estimation is ongoing ... 79%Estimation is ongoing ... 81%Estimation is ongoing ... 82%Estimation is ongoing ... 84%Estimation is ongoing ... 85%Estimation is ongoing ... 87%Estimation is ongoing ... 89%Estimation is ongoing ... 90%Estimation is ongoing ... 92%Estimation is ongoing ... 94%Estimation is ongoing ... 95%Estimation is ongoing ... 97%Estimation is ongoing ... 98%Estimation is ongoing ... 100%
+
+Integrating piecewise results 
+
+Point estimates: 
+Heritability of phenotype 1:  0.0595 
+Heritability of phenotype 2:  0.0269 
+Genetic Covariance:  -0.0131 
+Genetic Correlation:  -0.3287 
+
+Continuing computing standard error with jackknife 
+Progress... 2%Progress... 3%Progress... 5%Progress... 6%Progress... 8%Progress... 10%Progress... 11%Progress... 13%Progress... 15%Progress... 16%Progress... 18%Progress... 19%Progress... 21%Progress... 23%Progress... 24%Progress... 26%Progress... 27%Progress... 29%Progress... 31%Progress... 32%Progress... 34%Progress... 35%Progress... 37%Progress... 39%Progress... 40%Progress... 42%Progress... 44%Progress... 45%Progress... 47%Progress... 48%Progress... 50%Progress... 52%Progress... 53%Progress... 55%Progress... 56%Progress... 58%Progress... 60%Progress... 61%Progress... 63%Progress... 65%Progress... 66%Progress... 68%Progress... 69%Progress... 71%Progress... 73%Progress... 74%Progress... 76%Progress... 77%Progress... 79%Progress... 81%Progress... 82%Progress... 84%Progress... 85%Progress... 87%Progress... 89%Progress... 90%Progress... 92%Progress... 94%Progress... 95%Progress... 97%Progress... 98%Progress... 100%
+
+Heritability of phenotype 1:  0.0595 (0.0047) 
+Heritability of phenotype 2:  0.0269 (0.0018) 
+Genetic Covariance:  -0.0131 (0.0017) 
+Genetic Correlation:  -0.3287 (0.0433) 
+P:  3.18e-14 
+
+Analysis finished at Wed Feb 23 09:38:06 2022 
+The results were saved to /emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/output/fiadjbmi_FBWadj.Rout

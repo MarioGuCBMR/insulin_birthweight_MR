@@ -1,0 +1,10 @@
+
+HDL: High-definition likelihood inference of genetic correlations and heritabilities (HDL)
+Version 1.4.0 (2021-04-15) installed
+Author: Zheng Ning, Xia Shen
+Maintainer: Zheng Ning <zheng.ning@ki.se>
+
+Tutorial: https://github.com/zhenin/HDL
+
+Use citation("HDL") to know how to cite this work.
+
