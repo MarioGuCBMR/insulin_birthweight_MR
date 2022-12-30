@@ -1,0 +1,18 @@
+#!/bin/sh
+### Account information
+#$ W group_list=ku_00095 -A ku_00095
+### Job name (comment out the next line to get the name of the script used as the job name)
+#PBS -N test
+### Output files
+### Number of nodes
+#PBS -l mem=1510gb
+### Requesting time
+#PBS -l walltime=30:12:00:00
+
+# Load all required modules for the job
+module load tools
+module load gcc
+module load intel/perflibs
+module load R/4.1.0
+
+Rscript /home/projects/ku_00095/people/marure/BW_project/CODE/4_CAUSE/IS/DI/FBWadjMBW/DI_FBWadjMBW.R
