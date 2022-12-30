@@ -55,4 +55,10 @@ Warrington data can be obtained here: http://egg-consortium.org/birth-weight-201
 
 ## Folder structure:
 
+### RAW_DATA:
+
+In RAW_DATA you will need to store all the publically available GWAS mentioned above to be able to reproduce our analysis. Unfortunately Github cannot store the data, so please follow the instruction in the README inside that folder to be able to locate the data where it is intended.
+
+### CODE:
+
 
