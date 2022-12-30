@@ -1,0 +1,12 @@
+#! /bin/bash
+#$ -S /bin/bash
+#$ -N "clumping_all_chr"
+#$ -cwd
+#$ -pe smp 3
+
+
+variable=$"_1000G_phase_3_v5_EUR_maf"
+for i in {1..22}; do
+plink --bfile /emc/cbmr/users/zlc436/1000G_Phase3_v5/CURATED_DATA/PLINK_DATA/chr$i/chr${i}${variable} --clump /emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/1_Curating_data/1_Curating_FIadjBMI_data/data_4_clumping/updated_independent_FIadjBMI.txt --clump-p1 5e-2 --clump-p2 1 --clump-kb 500 --clump-r2 0.01 --out /emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/1_Curating_data/1_Curating_FIadjBMI_data/clumped_data/lax_updated_independent_chr$i
+done
+
