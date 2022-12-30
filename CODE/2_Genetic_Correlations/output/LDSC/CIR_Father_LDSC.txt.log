@@ -1,0 +1,65 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--ref-ld-chr eur_w_ld_chr/ \
+--out J:/CBMR/SUN-CBMR-Kilpelainen-Group/Team projects/Hermina_and_Mario/IR_BW_AIM4/CODE/2_Genetic_Correlations/output/LDSC/CIR_Father_LDSC.txt \
+--rg J:/CBMR/SUN-CBMR-Kilpelainen-Group/Team projects/Hermina_and_Mario/IR_BW_AIM4/CODE/2_Genetic_Correlations/MUNGED_DATA/CIR_4_LDSC.txt.sumstats.gz,J:/CBMR/SUN-CBMR-Kilpelainen-Group/Team projects/Hermina_and_Mario/IR_BW_AIM4/CODE/2_Genetic_Correlations/MUNGED_DATA/Father_4_LDSC.txt.sumstats.gz \
+--w-ld-chr eur_w_ld_chr/ 
+
+Beginning analysis at Thu Feb 24 13:00:41 2022
+Reading summary statistics from J:/CBMR/SUN-CBMR-Kilpelainen-Group/Team projects/Hermina_and_Mario/IR_BW_AIM4/CODE/2_Genetic_Correlations/MUNGED_DATA/CIR_4_LDSC.txt.sumstats.gz ...
+Read summary statistics for 1055327 SNPs.
+Reading reference panel LD Score from eur_w_ld_chr/[1-22] ... (ldscore_fromlist)
+Read reference panel LD Scores for 1290028 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from eur_w_ld_chr/[1-22] ... (ldscore_fromlist)
+Read regression weight LD Scores for 1290028 SNPs.
+After merging with reference panel LD, 1053680 SNPs remain.
+After merging with regression SNP LD, 1053680 SNPs remain.
+Computing rg for phenotype 2/2
+Reading summary statistics from J:/CBMR/SUN-CBMR-Kilpelainen-Group/Team projects/Hermina_and_Mario/IR_BW_AIM4/CODE/2_Genetic_Correlations/MUNGED_DATA/Father_4_LDSC.txt.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1053680 SNPs remain.
+1032084 SNPs with valid alleles.
+
+Heritability of phenotype 1
+---------------------------
+Total Observed scale h2: 0.148 (0.0877)
+Lambda GC: 1.0135
+Mean Chi^2: 1.0161
+Intercept: 1.0011 (0.0066)
+Ratio: 0.0714 (0.4091)
+
+Heritability of phenotype 2/2
+-----------------------------
+Total Observed scale h2: 0.0464 (0.0098)
+Lambda GC: 1.1396
+Mean Chi^2: 1.1512
+Intercept: 1.096 (0.0088)
+Ratio: 0.635 (0.058)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0384 (0.0202)
+Mean z1*z2: 0.0094
+Intercept: -0.004 (0.0051)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.464 (0.2706)
+Z-score: 1.7148
+P: 0.0864
+
+
+Summary of Genetic Correlation Results
+                                                                                                                                               p1                                                                                                                                                   p2     rg      se       z       p  h2_obs  h2_obs_se  h2_int  h2_int_se  gcov_int  gcov_int_se
+ J:/CBMR/SUN-CBMR-Kilpelainen-Group/Team projects/Hermina_and_Mario/IR_BW_AIM4/CODE/2_Genetic_Correlations/MUNGED_DATA/CIR_4_LDSC.txt.sumstats.gz  J:/CBMR/SUN-CBMR-Kilpelainen-Group/Team projects/Hermina_and_Mario/IR_BW_AIM4/CODE/2_Genetic_Correlations/MUNGED_DATA/Father_4_LDSC.txt.sumstats.gz  0.464  0.2706  1.7148  0.0864  0.0464     0.0098   1.096     0.0088    -0.004       0.0051
+
+Analysis finished at Thu Feb 24 13:01:26 2022
+Total time elapsed: 44.35s

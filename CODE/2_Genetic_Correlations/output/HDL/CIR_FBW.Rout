@@ -1,0 +1,35 @@
+Function arguments:
+gwas1.df=/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/curated_files_4_gc/CIR_4_HDL.txt
+gwas2.df=/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/curated_files_4_gc/FBW_4_HDL.txt
+LD.path=/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/0_installing_HDL_and_reference_data/ref_panel/UKB_imputed_hapmap2_SVD_eigen99_extraction
+output.file=/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/output/CIR_FBW.Rout
+
+HDL: High-definition likelihood inference of genetic correlations and heritabilities (HDL)
+Version 1.4.0 (2021-04-15) installed
+Author: Zheng Ning, Xia Shen
+Maintainer: Zheng Ning <zheng.ning@ki.se>
+Tutorial: https://github.com/zhenin/HDL
+Use citation("HDL") to know how to cite this work.
+
+Analysis starts on Wed Feb 23 13:13:27 2022 
+0  SNPs were removed in GWAS 1 due to missing N or missing test statistic.  
+0  SNPs were removed in GWAS 2 due to missing N or missing test statistic.  
+769164 out of 769306 (99.98%) SNPs in reference panel are available in GWAS 1.  
+768764 out of 769306 (99.93%) SNPs in reference panel are available in GWAS 2.  
+
+Integrating piecewise results 
+Continuing computing standard error with jackknife 
+
+
+Heritability of phenotype 1:  0.00e+00 (0.0064) 
+Heritability of phenotype 2:  0.0664 (0.0034) 
+Genetic Covariance:  0.0174 (0.0103) 
+Genetic Correlation:  Inf (NA) 
+P:  NA 
+Warning: Heritability of one trait was estimated to be 0, which may due to:
+            1) The true heritability is very low;
+            2) The sample size of the GWAS is too small;
+            3) Many SNPs in the chosen reference panel are absent in the GWAS;
+            4) There is a severe mismatch between the GWAS population and the population for computing reference panel
+Analysis finished at Wed Feb 23 13:19:46 2022 
+The results were saved to /emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/output/CIR_FBW.Rout

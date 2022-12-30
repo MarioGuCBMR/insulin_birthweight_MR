@@ -1,0 +1,32 @@
+Function arguments:
+gwas1.df=/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/curated_files_4_gc/FI_4_HDL.txt
+gwas2.df=/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/curated_files_4_gc/Father_4_HDL.txt
+LD.path=/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/0_installing_HDL_and_reference_data/ref_panel/UKB_imputed_hapmap2_SVD_eigen99_extraction
+output.file=/emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/output/FI_Father.Rout
+
+HDL: High-definition likelihood inference of genetic correlations and heritabilities (HDL)
+Version 1.4.0 (2021-04-15) installed
+Author: Zheng Ning, Xia Shen
+Maintainer: Zheng Ning <zheng.ning@ki.se>
+Tutorial: https://github.com/zhenin/HDL
+Use citation("HDL") to know how to cite this work.
+
+Analysis starts on Wed Feb 23 09:12:30 2022 
+0  SNPs were removed in GWAS 1 due to missing N or missing test statistic.  
+0  SNPs were removed in GWAS 2 due to missing N or missing test statistic.  
+769306 out of 769306 (100%) SNPs in reference panel are available in GWAS 1.  
+760259 out of 769306 (98.82%) SNPs in reference panel are available in GWAS 2.  
+Warning: More than 1% SNPs in reference panel are missed in GWAS 2. This may generate bias in estimation. Please make sure that you are using correct reference panel.  
+
+Integrating piecewise results 
+Continuing computing standard error with jackknife 
+
+
+Heritability of phenotype 1:  0.0526 (0.0059) 
+Heritability of phenotype 2:  0.0393 (0.0066) 
+Genetic Covariance:  -0.0056 (0.005) 
+Genetic Correlation:  -0.123 (0.1105) 
+P:  2.66e-01 
+
+Analysis finished at Wed Feb 23 09:19:36 2022 
+The results were saved to /emc/cbmr/users/zlc436/HERMINA_PhD4_Project/CODE/2_Genetic_Correlations/output/FI_Father.Rout
